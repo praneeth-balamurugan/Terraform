@@ -1,10 +1,10 @@
-resource "aws_instance" "myec2" {
-    ami = var.os
-    instance_type = var.instance_type
-    tags = {
-        Name = var.name
-    }
-}
+# resource "aws_instance" "myec2" {
+#     ami = var.os
+#     instance_type = var.instance_type
+#     tags = {
+#         Name = var.name
+#     }
+# }
 resource "aws_s3_bucket" "my_s3" {
   
 }
