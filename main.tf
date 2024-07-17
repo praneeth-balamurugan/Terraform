@@ -22,6 +22,6 @@ resource "github_repository" "terraform_practice" {
 output "IPadress" {
     value = aws_instance.myec2.public_ip
 }
-#terraform ouput
+#terraform #ouput
 
 
